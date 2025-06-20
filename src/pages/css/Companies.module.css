@@ -1,0 +1,1764 @@
+.child {
+    position: absolute;
+    width: calc(100% - 540px);
+    top: 4.33%;
+    right: 505px;
+    left: 35px;
+    max-width: 100%;
+    overflow: hidden;
+    height: 0px;
+    display: none;
+}
+.item {
+    position: absolute;
+    top: 156px;
+    left: 76px;
+    width: 319px;
+    height: 43px;
+}
+.inner {
+    position: absolute;
+    height: 6.67%;
+    width: 4.07%;
+    top: 4.81%;
+    right: 91.38%;
+    bottom: 88.52%;
+    left: 4.55%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.b {
+    position: absolute;
+    top: 5.3%;
+    left: 9.58%;
+    font-size: var(--font-size-22);
+    color: var(--color-gray-200);
+}
+.vectorIcon {
+    position: absolute;
+    height: 1.33%;
+    width: 0.81%;
+    top: 6.08%;
+    right: 85.47%;
+    bottom: 92.58%;
+    left: 13.71%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.groupChild {
+    position: absolute;
+    height: 0.19%;
+    top: 6.74%;
+    bottom: 93.06%;
+    left: calc(50% - 540.5px);
+    max-height: 100%;
+    width: 1081px;
+}
+.b1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+    width: 128px;
+}
+.wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 128px;
+    height: 19px;
+}
+.div1 {
+    position: absolute;
+    top: 10.76px;
+    left: 0px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    width: 94px;
+    height: 18.5px;
+}
+.div2 {
+    position: absolute;
+    top: 1px;
+    left: 107px;
+    width: 350px;
+    height: 39px;
+    /* 추가 */
+    z-index: 9999;
+}
+.div3 {
+    position: absolute;
+    top: 10.76px;
+    left: 587px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    width: 99px;
+    height: 18.5px;
+    z-index: 999;
+}
+.text {
+    position: absolute;
+    top: 22.46px;
+    left: 19.92px;
+    display: flex;
+    align-items: center;
+    height: 18.5px;
+}
+.bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: var(--br-5);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-lightsteelblue);
+    box-sizing: border-box;
+}
+.inputBasic {
+    position: absolute;
+    top: 1px;
+    left: 107px;
+    width: 350px;
+    height: 39px;
+}
+.inputContainer{
+    position: absolute;
+    top: 0px;
+    left: 731px;
+    width: 232px;
+    height: 40px;
+}
+.groupItem {
+    position: absolute;
+    height: 100%;
+    width: 50.29%;
+    top: 0%;
+    right: 49.71%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: var(--br-5) 0px 0px var(--br-5);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-lightsteelblue);
+    box-sizing: border-box;
+    cursor: pointer; /* 클릭 가능 표시 */
+    pointer-events: auto; /* 클릭 방지 해제 */
+    transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease; /* 부드러운 전환 */
+  }
+  .selected {
+    background-color: var(--color-aliceblue-100);
+    border-color: var(--color-dodgerblue);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* 선택된 버튼의 자식 텍스트 색상 오버라이드 */
+  .selected .div4,
+  .selected .b2 {
+    color: var(--color-dodgerblue);
+  }
+  .div4 {
+    position: absolute;
+    height: 47.5%;
+    width: 10.49%;
+    top: 25.83%;
+    left: 45%;
+    font-family: var(--font-pretendard); /* 기존 UI 유지 추정 */
+    font-size: var(--font-size-16); /* 기존 UI 유지 추정 */
+    font-weight: 500; /* 기존 <b> 태그 반영 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-gray-100); /* 기본 텍스트 색상 */
+    transition: color 0.2s ease; /* 텍스트 색상 전환 */
+  }
+.groupInner {
+    position: absolute;
+    height: 100%;
+    width: 50.29%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 49.71%;
+    border-radius: 0px var(--br-5) var(--br-5) 0px;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-lightsteelblue);
+    box-sizing: border-box;
+    cursor: pointer; /* 클릭 가능 표시 */
+    pointer-events: auto; /* 클릭 방지 해제 */
+    transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease; /* 부드러운 전환 */
+  }
+  .selected {
+    background-color: var(--color-aliceblue-100);
+    border-color: var(--color-dodgerblue);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .b2 {
+    position: absolute;
+    height: 47.5%;
+    width: 10.49%;
+    top: 25.83%;
+    left: 45%;
+    display: flex;
+    color: var(--color-gray-100);
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-pretendard); /* 기존 UI 유지 추정 */
+    font-size: var(--font-size-16); /* 기존 UI 유지 추정 */
+    font-weight: 500; /* 기존 <b> 태그 반영 */
+    transition: color 0.2s ease;
+  }
+.rectangleParent {
+    position: absolute;
+    height: 97.56%;
+    width: 18.92%;
+    top: 0%;
+    right: 0%;
+    bottom: 2.44%;
+    left: 81.08%;
+    text-align: center;
+    color: var(--color-gray-100);
+    z-index: 10;
+}
+.parent {
+    width: 901.6px;
+    position: relative;
+    height: 41px;
+}
+.bg1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: var(--br-5);
+    background-color: var(--color-whitesmoke-200);
+    border: 1px solid var(--color-lightsteelblue);
+    box-sizing: border-box;
+}
+.div5 {
+    position: absolute;
+    width: calc(100% - 52.5px);
+    top: calc(50% - 12.5px);
+    left: 15.6px;
+    line-height: 25px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+.inputBasic2 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+.inputBasic1 {
+    position: absolute;
+    top: calc(50% - 20.5px);
+    left: 731px;
+    width: 232px;
+    height: 40px;
+    color: var(--color-gray-100);
+}
+.div6 {
+    position: absolute;
+    top: calc(50% - 9.5px);
+    left: 0px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    width: 94px;
+}
+.div7 {
+    position: absolute;
+    top: 1px;
+    left: 107px;
+    width: 350px;
+    height: 39px;
+    /* 추가 */
+    z-index: 9999;
+}
+.div8 {
+    position: absolute;
+    top: calc(50% - 9.5px);
+    left: 587px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    width: 99px;
+}
+.div9 {
+    position: relative;
+    font-weight: 600;
+}
+.button {
+    position: absolute;
+    top: 0px;
+    left: 971px;
+    border-radius: var(--br-4);
+    background-color: var(--color-gainsboro);
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-20);
+    box-sizing: border-box;
+    text-align: center;
+    font-size: var(--font-size-15);
+    color: var(--color-gray-100);
+}
+.text1 {
+    position: absolute;
+    top: 22px;
+    left: 19.92px;
+}
+.div10 {
+    position: absolute;
+    width: calc(100% - 52.5px);
+    top: calc(50% - 12.5px);
+    left: 15.6px;
+    line-height: 25px;
+    font-weight: 500;
+    display: none;
+    align-items: center;
+}
+.div11 {
+    position: absolute;
+    width: calc(100% - 52.5px);
+    top: calc(50% - 12.5px);
+    left: 15.6px;
+    line-height: 25px;
+    font-weight: 500;
+    color: var(--color-darkslategray-300);
+    display: none;
+    align-items: center;
+}
+.icon {
+    position: absolute;
+    top: calc(50% - 1.93px);
+    right: 15.55px;
+    width: 8.7px;
+    height: 6px;
+    display: none;
+}
+.xcircleIcon {
+    position: absolute;
+    height: 52.5%;
+    top: 24.07%;
+    right: 13px;
+    bottom: 23.43%;
+    max-height: 100%;
+    width: 21px;
+    display: none;
+}
+.inputBasic3 {
+    position: absolute;
+    top: calc(50% - 20.5px);
+    left: 107px;
+    width: 350px;
+    height: 40px;
+    color: var(--color-silver);
+}
+.inputBasicParent {
+    width: 1080px;
+    position: relative;
+    height: 41px;
+}
+.div12 {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    width: 81.1px;
+}
+.div13 {
+    position: absolute;
+    top: 10px;
+    left: 587px;
+    font-weight: 500;
+    display: inline-block;
+    width: 67px;
+}
+.inputBasic4 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 350px;
+    height: 40px;
+}
+.div14 {
+    position: absolute;
+    top: calc(50% - 12px);
+    left: 324px;
+    line-height: 25px;
+    font-weight: 500;
+}
+.inputBasicGroup {
+    position: absolute;
+    top: 0px;
+    left: 731px;
+    width: 350px;
+    height: 40px;
+    text-align: right;
+    color: var(--color-gray-100);
+}
+.div15 {
+    position: absolute;
+    width: calc(100% - 57.6px);
+    top: calc(50% - 12.5px);
+    left: 45.04px;
+    line-height: 25px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    z-index: 99;
+}
+.calendarcheckIcon {
+    position: absolute;
+    top: calc(50% - 10.46px);
+    left: 12px;
+    width: 21px;
+    height: 21px;
+}
+.inputBasic6 {
+    position: absolute;
+    top: 0px;
+    left: 107px;
+    width: 350px;
+    height: 40px;
+    color: var(--color-gray-100);
+}
+.group {
+    width: 1081px;
+    position: relative;
+    height: 40px;
+}
+.div17 {
+    position: absolute;
+    top: 10px;
+    left: 587px;
+    font-weight: 500;
+    display: inline-block;
+    width: 91px;
+}
+.bg5 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: var(--br-5);
+    background-color: var(--color-aliceblue-100);
+    border: 1px solid var(--color-dodgerblue);
+    box-sizing: border-box;
+}
+.b3 {
+    position: absolute;
+    width: calc(100% - 57.6px);
+    top: calc(50% - 12.5px);
+    left: 45.04px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+}
+.inputBasic7 {
+    position: absolute;
+    top: 0px;
+    left: 107px;
+    width: 350px;
+    height: 40px;
+    color: var(--color-dodgerblue);
+}
+.frameIcon {
+    position: absolute;
+    top: 10px;
+    left: 120.5px;
+    width: 18px;
+    height: 19px;
+}
+.container {
+    width: 678px;
+    position: relative;
+    height: 40px;
+}
+.div18 {
+    position: absolute;
+    top: calc(50% - 12.5px);
+    left: 15.6px;
+    line-height: 25px;
+    font-weight: 500;
+}
+.inputBasic8 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 232px;
+    height: 40px;
+}
+.inputBasicWrapper {
+    position: absolute;
+    top: 0px;
+    left: 107px;
+    width: 232px;
+    height: 40px;
+}
+.div19 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    width: 81.1px;
+}
+.frame {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    width: 81.1px;
+    height: 19px;
+    color: var(--color-darkslategray-300);
+}
+.button1 {
+    position: absolute;
+    top: 0px;
+    left: 347px;
+    border-radius: var(--br-4);
+    background-color: var(--color-gainsboro);
+    width: 110px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-20);
+    box-sizing: border-box;
+    text-align: center;
+    font-size: var(--font-size-15);
+}
+.groupDiv {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 457px;
+    height: 40px;
+}
+.inputBasic10 {
+    position: absolute;
+    top: 46px;
+    left: 107px;
+    width: 571px;
+    height: 40px;
+}
+.inputBasic11 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 395px;
+    height: 40px;
+}
+.inputBasicContainer {
+    position: absolute;
+    top: 46px;
+    left: 686px;
+    width: 395px;
+    height: 40px;
+}
+.groupContainer {
+    width: 1081px;
+    position: relative;
+    height: 86px;
+    color: var(--color-gray-100);
+}
+.div23 {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    font-weight: 500;
+    color: var(--color-darkslategray-300);
+    display: flex;
+    align-items: center;
+    width: 127px;
+}
+.button2 {
+    position: absolute;
+    top: 0px;
+    left: 240px;
+    border-radius: var(--br-4);
+    background-color: var(--color-gainsboro);
+    width: 110px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-10);
+    box-sizing: border-box;
+    text-align: center;
+    font-size: var(--font-size-15);
+}
+.groupWrapper {
+    position: absolute;
+    top: 0px;
+    left: 107px;
+    width: 350px;
+    height: 40px;
+}
+.div26 {
+    position: absolute;
+    width: calc(100% - 53px);
+    top: calc(50% - 12.5px);
+    left: 15.6px;
+    line-height: 25px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+.xcircleIcon1 {
+    position: absolute;
+    height: 52.5%;
+    top: 24.07%;
+    right: 13.5px;
+    bottom: 23.43%;
+    max-height: 100%;
+    width: 21px;
+}
+.inputBasic14 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 169.5px;
+    height: 40px;
+}
+.xcircleIcon2 {
+    position: absolute;
+    height: 52.5%;
+    top: 24.07%;
+    right: 13px;
+    bottom: 23.43%;
+    max-height: 100%;
+    width: 21px;
+}
+.inputBasic15 {
+    position: absolute;
+    top: 0px;
+    left: 177px;
+    background-color: var(--color-whitesmoke-200);
+    width: 173px;
+    height: 40px;
+}
+.inputBasicParent2 {
+    position: absolute;
+    top: 49px;
+    left: 107px;
+    width: 350px;
+    height: 40px;
+}
+.inputBasicParent3 {
+    position: absolute;
+    top: 49px;
+    left: 468px;
+    width: 350px;
+    height: 40px;
+}
+.parent1 {
+    width: 818px;
+    position: relative;
+    height: 89px;
+    color: var(--color-gray-100);
+}
+.groupParent {
+    position: absolute;
+    top: 57px;
+    left: 0px;
+    width: 1081px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 25px;
+    color: var(--color-darkslategray-300);
+}
+.vectorParent {
+    position: absolute;
+    height: 50.93%;
+    top: 24.93%;
+    bottom: 24.14%;
+    left: calc(50% - 759px);
+    width: 1081px;
+    font-size: var(--font-size-16);
+    color: var(--color-gray-200);
+    font-family: var(--font-pretendard);
+}
+.b4 {
+    position: absolute;
+    height: 58%;
+    top: 0%;
+    left: 0px;
+    display: inline-block;
+    width: 67px;
+}
+.rectangleDiv {
+    position: absolute;
+    top: 32.56px;
+    left: 0px;
+    background-color: var(--color-dodgerblue);
+    width: 67px;
+    height: 2.4px;
+}
+.parent2 {
+    position: absolute;
+    height: 3.43%;
+    top: 15.31%;
+    bottom: 81.26%;
+    left: 76px;
+    width: 67px;
+    color: var(--color-dodgerblue);
+}
+.groupChild1 {
+    position: absolute;
+    top: 32.56px;
+    left: 0px;
+    width: 67px;
+    height: 2.4px;
+}
+.parent3 {
+    position: absolute;
+    height: 3.43%;
+    top: 15.31%;
+    bottom: 81.26%;
+    left: 168px;
+    width: 67px;
+    cursor: pointer;
+}
+.parent4 {
+    position: absolute;
+    height: 3.43%;
+    top: 15.31%;
+    bottom: 81.26%;
+    left: 260px;
+    width: 67px;
+    cursor: pointer;
+}
+.parent5 {
+    position: absolute;
+    height: 3.43%;
+    top: 15.31%;
+    bottom: 81.26%;
+    left: 352px;
+    width: 67px;
+    cursor: pointer;
+}
+.div30 {
+    position: absolute;
+    width: 3.99%;
+    top: 8.73%;
+    left: 9.58%;
+    font-size: 14px;
+    display: inline-block;
+}
+.icon1 {
+    position: absolute;
+    top: calc(50% - 1.93px);
+    right: 15.55px;
+    width: 8.7px;
+    height: 6px;
+}
+.inputBasic18 {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 350px;
+    height: 40px;
+}
+.div31 {
+    position: absolute;
+    top: 508px;
+    left: 805px;
+    width: 357px;
+    height: 403px;
+    overflow: hidden;
+    font-size: var(--font-size-16);
+    color: var(--color-gray-100);
+    font-family: var(--font-pretendard);
+}
+.div {
+    position: absolute;
+    top: 61px;
+    left: 250px;
+    background-color: var(--color-white);
+    width: 1670px;
+    height: 1019px;
+    overflow-y: auto;
+    font-size: var(--font-size-18);
+}
+.ver2Child {
+    position: absolute;
+    top: 0px;
+    left: 2190px;
+    width: 250px;
+    height: 1080px;
+}
+.groupChild4 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: var(--br-5);
+    background-color: var(--color-mintcream);
+    width: 377.2px;
+    height: 49px;
+}
+.locked1f5122Icon {
+    position: absolute;
+    top: 14px;
+    left: 73px;
+    width: 18px;
+    height: 21px;
+    object-fit: cover;
+}
+.div33 {
+    position: absolute;
+    height: 38.78%;
+    width: 55.14%;
+    top: 32.65%;
+    left: 25.98%;
+    font-weight: 600;
+    display: inline-block;
+}
+.rectangleGroup {
+    position: absolute;
+    top: 936px;
+    left: 28px;
+    width: 377.2px;
+    height: 49px;
+}
+.frameChild {
+    position: absolute;
+    height: 0.1%;
+    top: 28.22%;
+    bottom: 71.68%;
+    left: calc(50% - 192px);
+    max-height: 100%;
+    width: 378px;
+}
+.b8 {
+    position: absolute;
+    height: 2.36%;
+    width: 40.78%;
+    top: 31.86%;
+    left: 11.29%;
+    font-size: 21px;
+    letter-spacing: -0.02em;
+    display: inline-block;
+    color: var(--color-darkslategray-200);
+}
+.groupChild5 {
+    position: absolute;
+    top: 3px;
+    left: 0px;
+    border-radius: var(--br-5);
+    background-color: var(--color-aliceblue-200);
+    width: 37px;
+    height: 37px;
+}
+.div34 {
+    position: absolute;
+    top: 57.78%;
+    left: 18.38%;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+}
+.div35 {
+    position: absolute;
+    top: 0%;
+    left: 18.38%;
+    font-size: var(--font-size-18);
+    font-weight: 600;
+    color: var(--color-gray-200);
+}
+.directHit1f3af1Icon {
+    position: absolute;
+    top: 10px;
+    left: 9px;
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+.rectangleContainer {
+    width: 280px;
+    position: relative;
+    height: 45px;
+}
+.groupChild6 {
+    position: absolute;
+    top: 3px;
+    left: 0px;
+    border-radius: var(--br-5);
+    background-color: var(--color-mintcream);
+    width: 37px;
+    height: 37px;
+}
+.div36 {
+    position: absolute;
+    top: 57.78%;
+    left: 18.66%;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+}
+.div37 {
+    position: absolute;
+    top: 0%;
+    left: 18.66%;
+    font-size: var(--font-size-18);
+    font-weight: 600;
+    color: var(--color-gray-200);
+}
+.shield1f6e1Fe0f1Icon {
+    position: absolute;
+    top: 11px;
+    left: 8px;
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+.rectangleParent1 {
+    width: 268px;
+    position: relative;
+    height: 45px;
+}
+.groupChild7 {
+    position: absolute;
+    top: 3px;
+    left: 0px;
+    border-radius: var(--br-5);
+    background-color: var(--color-oldlace);
+    width: 37px;
+    height: 37px;
+}
+.div38 {
+    position: absolute;
+    top: 57.78%;
+    left: 19.38%;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+}
+.div39 {
+    position: absolute;
+    top: 0%;
+    left: 19.38%;
+    font-size: var(--font-size-18);
+    font-weight: 600;
+    color: var(--color-gray-200);
+}
+.rectangleParent2 {
+    width: 258px;
+    position: relative;
+    height: 45px;
+}
+.groupParent1 {
+    position: absolute;
+    top: 0px;
+    left: 25px;
+    width: 285px;
+    height: 248px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 40px;
+    color: var(--color-dimgray);
+}
+.groupChild8 {
+    position: absolute;
+    top: 255px;
+    left: -1px;
+    border-radius: 7px;
+    background-color: var(--color-ghostwhite);
+    border: 1px solid var(--color-aliceblue-400);
+    box-sizing: border-box;
+    width: 380px;
+    height: 248px;
+}
+.b9 {
+    position: absolute;
+    height: 4.98%;
+    width: 52.49%;
+    top: 54.78%;
+    left: 7.14%;
+    font-size: var(--font-size-18);
+    display: inline-block;
+    color: var(--color-dodgerblue);
+}
+.vectorIcon1 {
+    position: absolute;
+    height: 28.31%;
+    width: 3.71%;
+    top: 36.53%;
+    right: 96.29%;
+    bottom: 35.16%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.div40 {
+    position: absolute;
+    height: 100%;
+    width: 88.81%;
+    top: 0%;
+    left: 11.22%;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+.vectorGroup {
+    position: absolute;
+    height: 4.36%;
+    width: 44.21%;
+    top: 64.14%;
+    right: 48.65%;
+    bottom: 31.49%;
+    left: 7.14%;
+}
+.vectorIcon2 {
+    position: absolute;
+    height: 28.31%;
+    width: 4.9%;
+    top: 36.53%;
+    right: 95.1%;
+    bottom: 35.16%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.div41 {
+    position: absolute;
+    height: 100%;
+    width: 85.22%;
+    top: 0%;
+    left: 14.82%;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+.vectorContainer {
+    position: absolute;
+    height: 4.36%;
+    width: 33.47%;
+    top: 71.49%;
+    right: 59.39%;
+    bottom: 24.15%;
+    left: 7.14%;
+}
+.vectorIcon3 {
+    position: absolute;
+    height: 28.31%;
+    width: 6.97%;
+    top: 36.53%;
+    right: 93.03%;
+    bottom: 35.16%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.div42 {
+    position: absolute;
+    height: 100%;
+    width: 78.99%;
+    top: 0%;
+    left: 21.06%;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+.vectorParent1 {
+    position: absolute;
+    height: 4.36%;
+    width: 23.54%;
+    top: 78.83%;
+    right: 69.31%;
+    bottom: 16.81%;
+    left: 7.14%;
+}
+.groupChild9 {
+    position: absolute;
+    top: 439px;
+    left: 27px;
+    border-radius: var(--br-5);
+    background-color: var(--color-dodgerblue);
+    width: 324px;
+    height: 42px;
+}
+.b10 {
+    position: absolute;
+    height: 5.3%;
+    width: 31.4%;
+    top: 89.04%;
+    left: 34.39%;
+    font-size: var(--font-size-18);
+    display: flex;
+    color: var(--color-white);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.frameParent {
+    position: absolute;
+    top: 387px;
+    left: 24px;
+    width: 378px;
+    height: 502px;
+    color: var(--color-gray-200);
+}
+.div43 {
+    position: absolute;
+    top: 51px;
+    left: calc(50% - 87px);
+    letter-spacing: -0.05em;
+    font-weight: 800;
+    display: inline-block;
+    width: 174px;
+    height: 58px;
+}
+.groupChild10 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 6.5px;
+    background-color: var(--color-aliceblue-300);
+    border: 1px solid var(--color-aliceblue-300);
+    box-sizing: border-box;
+    width: 336px;
+    height: 13px;
+}
+.groupChild11 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 6.5px;
+    background-color: var(--color-dodgerblue);
+    border: 1px solid var(--color-dodgerblue);
+    box-sizing: border-box;
+    width: 81px;
+    height: 13px;
+}
+.rectangleParent3 {
+    position: absolute;
+    top: 198px;
+    left: 0px;
+    width: 336px;
+    height: 13px;
+}
+.p {
+    margin: 0;
+    font-weight: 600;
+    white-space: pre-wrap;
+}
+.p1 {
+    margin: 0;
+    font-size: var(--font-size-15);
+    line-height: 25px;
+    font-weight: 500;
+}
+.div44 {
+    position: absolute;
+    top: 63.51%;
+    left: calc(50% - 134px);
+    letter-spacing: -0.03em;
+    color: var(--color-darkslategray-100);
+    font-size: 20px;
+}
+.b11 {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 87px);
+    font-size: 25px;
+    display: inline-block;
+    color: var(--color-gray-200);
+    width: 174px;
+    height: 26px;
+}
+.parent6 {
+    position: absolute;
+    top: 38px;
+    left: calc(50% - 168px);
+    width: 336px;
+    height: 211px;
+    text-align: center;
+    font-size: 50px;
+    color: var(--color-dodgerblue);
+}
+.image504Icon {
+    position: absolute;
+    top: 173px;
+    left: 115px;
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+.frameDiv {
+    position: absolute;
+    top: 63px;
+    left: 1486px;
+    background-color: var(--color-whitesmoke-100);
+    box-sizing: border-box;
+    width: 434px;
+    height: 1017px;
+    color: var(--color-seagreen);
+    font-family: var(--font-pretendard);
+}
+.frameDiv1 {
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    z-index: 9999;
+}
+.headerChild {
+    position: absolute;
+    height: 107.9%;
+    width: 107.0%;
+    top: 5%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+.chalkboardteacher {
+    position: absolute;
+    height: 42.62%;
+    width: 1.35%;
+    top: 30.21%;
+    right: 17.03%;
+    bottom: 27.17%;
+    left: 81.61%;
+    display: none;
+}
+.headerIcon {
+  	position: absolute;
+  	top: 5px;
+  	left: 0px;
+  	width: 1920px;
+  	height: 61px;
+  	object-fit: cover;
+}
+.div45 {
+    position: absolute;
+    top: 31.01%;
+    left: 89.9%;
+    text-align: right;
+}
+.am {
+    position: absolute;
+    top: 40.05%;
+    left: 84.91%;
+    font-size: var(--font-size-12);
+}
+.div46 {
+    position: absolute;
+    top: 30.21%;
+    left: 86%;
+    font-size: var(--font-size-18);
+}
+
+.headerChild1 {
+    position: absolute;
+    height: 22.3%;
+    top: 38.73%;
+    bottom: 38.97%;
+    left: 84.1%;
+    max-height: 100%;
+    width: 0px;
+    display: none;
+}
+.b12 {
+    position: absolute;
+    top: 31.15%;
+    left: 15.18%;
+    font-size: var(--font-size-22);
+    display: none;
+    font-family: var(--font-roboto);
+    color: var(--color-black);
+}
+.monitorIcon {
+    position: absolute;
+    height: 42.62%;
+    width: 1.35%;
+    top: 30.21%;
+    right: 21.33%;
+    bottom: 27.17%;
+    left: 77.32%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    opacity: 0.4;
+}
+.layoutIcon {
+    position: absolute;
+    height: 42.62%;
+    width: 1.35%;
+    top: 30.21%;
+    right: 18.98%;
+    bottom: 27.17%;
+    left: 79.67%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.bellIcon {
+    position: absolute;
+    height: 42.62%;
+    width: 1.35%;
+    top: 28.69%;
+    right: 16.78%;
+    bottom: 28.69%;
+    left: 81.86%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.05);
+    width: 1920px;
+    height: 61px;
+    color: var(--color-gray-200);
+}
+.component13Child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: var(--br-5);
+    background-color: var(--color-dodgerblue);
+    border: 1px solid var(--color-dodgerblue);
+    box-sizing: border-box;
+}
+.b13 {
+    position: absolute;
+    height: 73.4%;
+    top: 13.33%;
+    left: calc(50% - 73.59px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 146.2px;
+}
+.caretrightIcon {
+    position: absolute;
+    height: 28%;
+    top: 36%;
+    right: 15px;
+    bottom: 36%;
+    max-height: 100%;
+    width: 14px;
+}
+.component13 {
+    position: absolute;
+    top: 0.04px;
+    left: 168px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+}
+.component26Child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: var(--br-5);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-dodgerblue);
+    box-sizing: border-box;
+}
+.b14 {
+    position: absolute;
+    height: 73.4%;
+    top: 13.33%;
+    left: calc(50% - 45.19px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90.4px;
+}
+.component26 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 147px;
+    height: 50px;
+    font-size: var(--font-size-16);
+    color: var(--color-dodgerblue);
+}
+.component13Parent {
+    position: absolute;
+    top: 13px;
+    left: 789px;
+    width: 368px;
+    height: 50px;
+}
+.footer {
+    position: absolute;
+    bottom: 0px;
+    left: 250px;
+    top: 850px;
+    background-color: var(--color-white);
+    border-top: 1px solid var(--color-aliceblue-400);
+    box-sizing: border-box;
+    width: 1237px;
+    height: 77px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--font-size-18);
+    color: var(--color-white);
+}
+.groupChild12 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: linear-gradient(180deg, #0c1232, #0b1131);
+    width: 250px;
+    height: 1080px;
+}
+.div48 {
+    position: absolute;
+    top: 0px;
+    left: 20.45px;
+    font-weight: 600;
+    display: inline-block;
+    width: 63.7px;
+}
+.child1 {
+    position: absolute;
+    top: calc(50% - 7.82px);
+    left: 0px;
+    width: 16px;
+    height: 16px;
+}
+.div47 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 84.2px;
+    height: 22px;
+}
+.rectangleIcon {
+    position: absolute;
+    top: 6.35px;
+    right: -0.01px;
+    width: 9.8px;
+    height: 9.7px;
+    object-fit: contain;
+}
+.parent7 {
+    width: 199.9px;
+    position: relative;
+    height: 22px;
+}
+.div50 {
+    position: absolute;
+    top: 0px;
+    left: 21.7px;
+    font-weight: 600;
+}
+.starFilledIcon {
+    position: absolute;
+    top: 3.18px;
+    left: 0px;
+    width: 15px;
+    height: 15px;
+}
+.div49 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 88px;
+    height: 22px;
+}
+.groupChild13 {
+    position: absolute;
+    top: 8.68px;
+    right: -0.02px;
+    width: 9.7px;
+    height: 9.7px;
+    object-fit: contain;
+}
+.icon2 {
+    position: absolute;
+    height: 75%;
+    width: 75%;
+    top: 12.5%;
+    right: 12.5%;
+    bottom: 12.5%;
+    left: 12.5%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.externalLink {
+    position: absolute;
+    top: 3.18px;
+    left: 0px;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+}
+.div51 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 114.7px;
+    height: 22px;
+}
+.div54 {
+    position: absolute;
+    top: 0px;
+    left: 19.25px;
+    font-weight: 600;
+}
+.groupIcon {
+    position: absolute;
+    top: 5.38px;
+    left: 0px;
+    width: 10px;
+    height: 11.4px;
+}
+.div53 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 97.2px;
+    height: 22px;
+}
+.groupChild15 {
+    position: absolute;
+    top: 8.68px;
+    right: 0.03px;
+    width: 9.7px;
+    height: 9.7px;
+    object-fit: contain;
+}
+.parent10 {
+    width: 197.5px;
+    position: relative;
+    height: 22px;
+    color: var(--color-white);
+}
+.div56 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-weight: 500;
+    display: inline-block;
+    width: 178px;
+}
+.div55 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 178px;
+    height: 22px;
+}
+.wrapper1 {
+    width: 178px;
+    position: relative;
+    height: 22px;
+    color: var(--color-white);
+}
+.div58 {
+    position: absolute;
+    top: 0px;
+    left: 19.87%;
+    font-weight: 600;
+}
+.subtractIcon {
+    position: relative;
+    width: 10.2px;
+    height: 10.8px;
+}
+.div57 {
+    position: absolute;
+    width: 49.29%;
+    top: 0px;
+    right: 50.71%;
+    left: 0%;
+    height: 22px;
+}
+.groupChild16 {
+    position: absolute;
+    top: 6.58px;
+    right: 0.03px;
+    width: 9.7px;
+    height: 9.7px;
+    object-fit: contain;
+}
+.parent11 {
+    width: 197.6px;
+    position: relative;
+    height: 22px;
+}
+.groupParent2 {
+    position: absolute;
+    top: 159.82px;
+    left: 26px;
+    width: 199.9px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 21px;
+}
+.resources {
+    position: absolute;
+    top: 435px;
+    left: 25.96px;
+    font-size: var(--font-size-12);
+    line-height: 14px;
+    font-family: var(--font-poppins);
+}
+.groupChild17 {
+    position: absolute;
+    top: 5.16px;
+    right: 0.05px;
+    width: 9.7px;
+    height: 9.7px;
+    object-fit: contain;
+}
+.div59 {
+    position: absolute;
+    top: 0px;
+    left: 18.54px;
+    font-weight: 600;
+}
+.groupChild18 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: var(--br-1);
+    background-color: var(--color-lightslategray);
+    width: 4.9px;
+    height: 4.9px;
+}
+.groupChild19 {
+    position: absolute;
+    top: 0px;
+    left: 5.71px;
+    border-radius: var(--br-1);
+    background-color: var(--color-lightslategray);
+    width: 4.9px;
+    height: 4.9px;
+}
+.groupChild20 {
+    position: absolute;
+    top: 5.71px;
+    left: 0px;
+    border-radius: var(--br-1);
+    background-color: var(--color-lightslategray);
+    width: 4.9px;
+    height: 4.9px;
+}
+.groupChild21 {
+    position: absolute;
+    top: 5.71px;
+    left: 5.71px;
+    border-radius: var(--br-1);
+    background-color: var(--color-lightslategray);
+    width: 4.9px;
+    height: 4.9px;
+}
+.rectangleParent5 {
+    position: absolute;
+    top: 6.19px;
+    left: 0px;
+    width: 10.6px;
+    height: 10.6px;
+}
+.parent12 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 117.5px;
+    height: 22px;
+}
+.vectorParent2 {
+    width: 196.8px;
+    position: relative;
+    height: 22px;
+}
+.groupFrame {
+    position: absolute;
+    top: 473.82px;
+    left: 24px;
+    width: 199.9px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.dashboard {
+    position: absolute;
+    top: 120px;
+    left: 27.96px;
+    font-size: var(--font-size-12);
+    line-height: 14px;
+    font-family: var(--font-poppins);
+}
+.partnerit {
+    position: absolute;
+    top: 56px;
+    left: 51px;
+    font-size: var(--font-size-22);
+    line-height: 18px;
+    font-family: var(--font-uni-sans);
+    color: var(--color-white);
+}
+.groupChild22 {
+position: absolute;
+top: 51px;
+left: 22px;
+width: 144.7px;
+height: 28.5px;
+}
+.rectangleParent4 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 250px;
+    height: 1080px;
+    color: var(--color-lightslategray);
+}
+.ver2 {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    height: 1080px;
+    overflow-y: auto;
+    text-align: left;
+    font-size: var(--font-size-16);
+    color: var(--color-lightsteelblue);
+    font-family: var(--font-noto-sans);
+}
+

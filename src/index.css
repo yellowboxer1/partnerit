@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pretendard:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Uni+Sans:ital,wght@400&display=swap');
+
+body {
+  	margin: 0; line-height: normal;
+}
+:root {
+  	
+  	/* Color */
+  	--color-dodgerblue: #3c82f6;
+  	--color-aliceblue-400: #e2e8f0;
+	--color-aliceblue: #e2e8f0;
+  	--color-white: #fff;
+  	--color-whitesmoke-100: #f8f9fa;
+  	--color-whitesmoke-200: #f6f6f6;
+  	--color-darkslategray-100: #354f6e;
+  	--color-darkslategray-200: #374456;
+  	--color-whitesmoke-300: #f4f4f4;
+  	--color-gainsboro: #e7e8ea;
+  	--color-lightsteelblue: #a6acbe;
+  	--color-aliceblue-100: #ecf3ff;
+  	--color-silver: #b9b9b9;
+  	--color-mintcream: #f0f9f0;
+  	--color-gray-100: #818181;
+  	--color-gray-200: #1e1d2d;
+  	--color-seagreen: #1d8645;
+  	--color-oldlace: #fef9e7;
+  	--color-aliceblue-200: #e7f4ff;
+  	--color-dimgray: #555;
+  	--color-darkslategray-300: #333;
+  	--color-aliceblue-300: #e7eaf2;
+  	--color-ghostwhite: #f8f9ff;
+  	--color-black: #000;
+  	--color-lightslategray: #8da4bf;
+  	
+  	/* Padding */
+  	--padding-20: 20px;
+  	
+  	/* BorderRadius */
+  	--br-1: 1px;
+  	--br-4: 4px;
+  	--br-5: 5px;
+  	
+  	/* Font */
+  	--font-noto-sans: Noto Sans;
+  	--font-pretendard: Pretendard;
+  	--font-roboto: Roboto;
+  	--font-poppins: Poppins;
+  	--font-uni-sans: Uni Sans;
+  	
+  	/* FontSize */
+  	--font-size-12: 12px;
+  	--font-size-15: 15px;
+  	--font-size-16: 16px;
+  	--font-size-18: 18px;
+  	--font-size-22: 22px;
+  	
+}
